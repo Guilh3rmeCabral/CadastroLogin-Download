@@ -41,17 +41,22 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Tela de Login | MTH Dev++</title>
 </head>
 <body>
-    <form action="login.php" method="POST">
-    <label for="">Email</label>
-        <input type="e-mail" name="email" placeholder="Seu email">
-
-        <label for="">Senha:</label>
-        <input type="password" name="senha" placeholder="Sua senha">
-        <button><a href=""></a>Entrar</button>
-        <button><a href="cadastro.php">Se cadastre</a></button>
-    </form>
+    <img src="assents/Logo.svg">
+    <div class="form">
+        <form action="login.php" method="POST">
+            <label for="">Email</label>
+            <input type="e-mail" name="email" placeholder="Seu email" required>
+            <br>
+            <label for="">Senha</label>
+            <input type="password" name="senha" placeholder="Sua senha" required>
+            <br>
+            <button><a href=""></a>Entrar</button>
+            <button><a href="cadastro.php">Se cadastre</a></button>
+        </form>
+    </div>
 </body>
 </html>
