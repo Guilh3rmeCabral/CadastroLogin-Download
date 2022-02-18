@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    height: 100vh;
+}
+.cabeca{
+    background-color: #4F17C6;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.topo{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-inline: 10px ;
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+}
+.info-titulo{
+    background: #cecece;
+    padding: 10px;
+    border: 1px solid #000;
+}
+.secao-informacao{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    border-top: none;
+    background: #fff;
+    padding: 10px;
+}
+.botao-sair{
+    height: 30px;
+    width: 60px;
+    background-color: #4F17C6;
+    border: none;
+}
+.botao-sair a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+li {
+    list-style: none;
+}
+.arquivo{
+    padding: 10px;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.arquivo li{
+    background-color: #4F17C6;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.arquivo li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.area-download{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+h4{
+    text-align: center;
+}
